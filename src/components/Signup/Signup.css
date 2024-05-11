@@ -1,0 +1,11 @@
+.text-error {
+  color: rgb(199, 69, 69);
+  font-size: larger;
+  margin-bottom: 2px;
+  background-color: aquamarine;
+  /* height: 40px;
+  width: 430px;
+  padding: 1px; */
+  width: 430px;
+  padding-left: 5px;
+}

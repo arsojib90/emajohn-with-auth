@@ -1,19 +1,46 @@
-.header{
-    height: 80px;
-    background-color: #1C2B35;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 140px;
-    padding-right: 140px;
+.header {
+  height: 80px;
+  background-color: #1c2b35;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 140px;
+  padding-right: 140px;
 }
 
-.header a{
-    color: #FFFFFF;
-    text-decoration: none;
-    font-size: 17px;
-    margin-left: 36px;
+.header a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 36px;
 }
-.header a:hover{
-    color: orange;
+.header a:hover {
+  color: orange;
+}
+.btn-logout {
+  margin-left: 10px;
+  background-color: red;
+  color: white;
+  padding: 6px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.user {
+  color: rgb(222, 34, 232);
+  margin-left: 10px;
+  font-weight: 600;
+  font-style: italic;
+}
+.btn-login {
+  background-color: rgb(233, 229, 108);
+  padding: 5px;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#login {
+  color: rgb(10, 83, 10);
+}
+#login:hover {
+  color: rgb(32, 179, 127);
 }
